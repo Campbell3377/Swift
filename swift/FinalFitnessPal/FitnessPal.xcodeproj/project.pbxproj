@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		378A4CEB29E4F08C004CA003 /* RunPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378A4CEA29E4F08C004CA003 /* RunPath.swift */; };
+		378A4CED29E4F68B004CA003 /* RunPathRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378A4CEC29E4F68B004CA003 /* RunPathRenderer.swift */; };
+		378A4CF129E4FBDB004CA003 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378A4CF029E4FBDB004CA003 /* MapViewController.swift */; };
+		378A4CF329E4FD32004CA003 /* MapViewControllerLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378A4CF229E4FD32004CA003 /* MapViewControllerLocation.swift */; };
+		378A4CF529E4FEB1004CA003 /* MapViewControllerMenus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378A4CF429E4FEB1004CA003 /* MapViewControllerMenus.swift */; };
+		378A4CFB29E5E441004CA003 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378A4CFA29E5E441004CA003 /* Main.storyboard */; };
+		378A4D2729E5FF6E004CA003 /* RunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378A4D2629E5FF6E004CA003 /* RunView.swift */; };
+		378A4D2B29E84832004CA003 /* chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 378A4D2A29E84832004CA003 /* chime.mp3 */; };
+		378A4D2D29E84970004CA003 /* bells.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 378A4D2C29E84970004CA003 /* bells.mp3 */; };
+		378A4D2F29E8F33B004CA003 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378A4D2E29E8F33B004CA003 /* WorkoutViewController.swift */; };
+		378A4D3329E910CA004CA003 /* CalorieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378A4D3229E910CA004CA003 /* CalorieView.swift */; };
+		378A4D3929EA0550004CA003 /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378A4D3829EA0550004CA003 /* CoreDataController.swift */; };
+		37AF0E4729C3D13400210F0F /* FitnessPalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AF0E4629C3D13400210F0F /* FitnessPalApp.swift */; };
+		37AF0E4929C3D13400210F0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AF0E4829C3D13400210F0F /* ContentView.swift */; };
+		37AF0E4B29C3D13500210F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37AF0E4A29C3D13500210F0F /* Assets.xcassets */; };
+		37AF0E4E29C3D13500210F0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37AF0E4D29C3D13500210F0F /* Preview Assets.xcassets */; };
+		37AF0E5329C3D13500210F0F /* FitnessPal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37AF0E5129C3D13500210F0F /* FitnessPal.xcdatamodeld */; };
+		37AF0E6329C536F400210F0F /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AF0E6229C536F400210F0F /* RingView.swift */; };
+		37B3DAFB29EF070900C7B77E /* CalorieGoal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37B3DAF929EF070900C7B77E /* CalorieGoal.xcdatamodeld */; };
+		37B67BB229C68A9200177AA4 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B67BB129C68A9200177AA4 /* WorkoutView.swift */; };
+		37B67BB429C68CA200177AA4 /* WorkoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B67BB329C68CA200177AA4 /* WorkoutModel.swift */; };
+		37B7726829C7D88800BAACA9 /* WorkoutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B7726729C7D88800BAACA9 /* WorkoutDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3750FEC229C6174000E9BB9D /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		378A4CEA29E4F08C004CA003 /* RunPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunPath.swift; sourceTree = "<group>"; };
+		378A4CEC29E4F68B004CA003 /* RunPathRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunPathRenderer.swift; sourceTree = "<group>"; };
+		378A4CF029E4FBDB004CA003 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		378A4CF229E4FD32004CA003 /* MapViewControllerLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewControllerLocation.swift; sourceTree = "<group>"; };
+		378A4CF429E4FEB1004CA003 /* MapViewControllerMenus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewControllerMenus.swift; sourceTree = "<group>"; };
+		378A4CFA29E5E441004CA003 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		378A4D2629E5FF6E004CA003 /* RunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunView.swift; sourceTree = "<group>"; };
+		378A4D2A29E84832004CA003 /* chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chime.mp3; sourceTree = "<group>"; };
+		378A4D2C29E84970004CA003 /* bells.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bells.mp3; sourceTree = "<group>"; };
+		378A4D2E29E8F33B004CA003 /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		378A4D3229E910CA004CA003 /* CalorieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieView.swift; sourceTree = "<group>"; };
+		378A4D3829EA0550004CA003 /* CoreDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataController.swift; sourceTree = "<group>"; };
+		37AF0E4329C3D13400210F0F /* FitnessPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37AF0E4629C3D13400210F0F /* FitnessPalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessPalApp.swift; sourceTree = "<group>"; };
+		37AF0E4829C3D13400210F0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		37AF0E4A29C3D13500210F0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37AF0E4D29C3D13500210F0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		37AF0E5229C3D13500210F0F /* FitnessPal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FitnessPal.xcdatamodel; sourceTree = "<group>"; };
+		37AF0E5C29C52EDA00210F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		37AF0E5D29C52EE700210F0F /* FitnessPal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FitnessPal.entitlements; sourceTree = "<group>"; };
+		37AF0E6229C536F400210F0F /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		37B3DAFA29EF070900C7B77E /* CalorieGoal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CalorieGoal.xcdatamodel; sourceTree = "<group>"; };
+		37B67BB129C68A9200177AA4 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		37B67BB329C68CA200177AA4 /* WorkoutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutModel.swift; sourceTree = "<group>"; };
+		37B7726729C7D88800BAACA9 /* WorkoutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37AF0E4029C3D13400210F0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3750FEC129C6173F00E9BB9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3750FEC229C6174000E9BB9D /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		378A4D3A29EA4074004CA003 /* CalorieView */ = {
+			isa = PBXGroup;
+			children = (
+				37AF0E6229C536F400210F0F /* RingView.swift */,
+				378A4D3229E910CA004CA003 /* CalorieView.swift */,
+				378A4D3829EA0550004CA003 /* CoreDataController.swift */,
+			);
+			path = CalorieView;
+			sourceTree = "<group>";
+		};
+		378A4D3B29EA40CC004CA003 /* RunView */ = {
+			isa = PBXGroup;
+			children = (
+				378A4CEA29E4F08C004CA003 /* RunPath.swift */,
+				378A4CEC29E4F68B004CA003 /* RunPathRenderer.swift */,
+				378A4CF029E4FBDB004CA003 /* MapViewController.swift */,
+				378A4CF229E4FD32004CA003 /* MapViewControllerLocation.swift */,
+				378A4CF429E4FEB1004CA003 /* MapViewControllerMenus.swift */,
+				378A4D2629E5FF6E004CA003 /* RunView.swift */,
+				378A4CFA29E5E441004CA003 /* Main.storyboard */,
+				378A4D2A29E84832004CA003 /* chime.mp3 */,
+				378A4D2C29E84970004CA003 /* bells.mp3 */,
+			);
+			path = RunView;
+			sourceTree = "<group>";
+		};
+		378A4D3C29EA4107004CA003 /* WorkoutView */ = {
+			isa = PBXGroup;
+			children = (
+				37B67BB129C68A9200177AA4 /* WorkoutView.swift */,
+				37B67BB329C68CA200177AA4 /* WorkoutModel.swift */,
+				37B7726729C7D88800BAACA9 /* WorkoutDetailView.swift */,
+				378A4D2E29E8F33B004CA003 /* WorkoutViewController.swift */,
+			);
+			path = WorkoutView;
+			sourceTree = "<group>";
+		};
+		37AF0E3A29C3D13400210F0F = {
+			isa = PBXGroup;
+			children = (
+				37AF0E4529C3D13400210F0F /* FitnessPal */,
+				37AF0E4429C3D13400210F0F /* Products */,
+				3750FEC129C6173F00E9BB9D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		37AF0E4429C3D13400210F0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37AF0E4329C3D13400210F0F /* FitnessPal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37AF0E4529C3D13400210F0F /* FitnessPal */ = {
+			isa = PBXGroup;
+			children = (
+				378A4D3C29EA4107004CA003 /* WorkoutView */,
+				378A4D3B29EA40CC004CA003 /* RunView */,
+				378A4D3A29EA4074004CA003 /* CalorieView */,
+				37AF0E4629C3D13400210F0F /* FitnessPalApp.swift */,
+				37AF0E4829C3D13400210F0F /* ContentView.swift */,
+				37AF0E5129C3D13500210F0F /* FitnessPal.xcdatamodeld */,
+				37B3DAF929EF070900C7B77E /* CalorieGoal.xcdatamodeld */,
+				37AF0E5D29C52EE700210F0F /* FitnessPal.entitlements */,
+				37AF0E5C29C52EDA00210F0F /* Info.plist */,
+				37AF0E4A29C3D13500210F0F /* Assets.xcassets */,
+				37AF0E4C29C3D13500210F0F /* Preview Content */,
+			);
+			path = FitnessPal;
+			sourceTree = "<group>";
+		};
+		37AF0E4C29C3D13500210F0F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				37AF0E4D29C3D13500210F0F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37AF0E4229C3D13400210F0F /* FitnessPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37AF0E5629C3D13500210F0F /* Build configuration list for PBXNativeTarget "FitnessPal" */;
+			buildPhases = (
+				37AF0E3F29C3D13400210F0F /* Sources */,
+				37AF0E4029C3D13400210F0F /* Frameworks */,
+				37AF0E4129C3D13400210F0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitnessPal;
+			productName = FitnessPal;
+			productReference = 37AF0E4329C3D13400210F0F /* FitnessPal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37AF0E3B29C3D13400210F0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					37AF0E4229C3D13400210F0F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 37AF0E3E29C3D13400210F0F /* Build configuration list for PBXProject "FitnessPal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37AF0E3A29C3D13400210F0F;
+			productRefGroup = 37AF0E4429C3D13400210F0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37AF0E4229C3D13400210F0F /* FitnessPal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37AF0E4129C3D13400210F0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37AF0E4E29C3D13500210F0F /* Preview Assets.xcassets in Resources */,
+				37AF0E4B29C3D13500210F0F /* Assets.xcassets in Resources */,
+				378A4D2B29E84832004CA003 /* chime.mp3 in Resources */,
+				378A4CFB29E5E441004CA003 /* Main.storyboard in Resources */,
+				378A4D2D29E84970004CA003 /* bells.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37AF0E3F29C3D13400210F0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B3DAFB29EF070900C7B77E /* CalorieGoal.xcdatamodeld in Sources */,
+				37AF0E5329C3D13500210F0F /* FitnessPal.xcdatamodeld in Sources */,
+				378A4D3929EA0550004CA003 /* CoreDataController.swift in Sources */,
+				37B7726829C7D88800BAACA9 /* WorkoutDetailView.swift in Sources */,
+				37B67BB229C68A9200177AA4 /* WorkoutView.swift in Sources */,
+				378A4D3329E910CA004CA003 /* CalorieView.swift in Sources */,
+				37AF0E4929C3D13400210F0F /* ContentView.swift in Sources */,
+				378A4CF329E4FD32004CA003 /* MapViewControllerLocation.swift in Sources */,
+				37AF0E6329C536F400210F0F /* RingView.swift in Sources */,
+				378A4CED29E4F68B004CA003 /* RunPathRenderer.swift in Sources */,
+				37B67BB429C68CA200177AA4 /* WorkoutModel.swift in Sources */,
+				378A4CF529E4FEB1004CA003 /* MapViewControllerMenus.swift in Sources */,
+				378A4CEB29E4F08C004CA003 /* RunPath.swift in Sources */,
+				378A4D2F29E8F33B004CA003 /* WorkoutViewController.swift in Sources */,
+				378A4D2729E5FF6E004CA003 /* RunView.swift in Sources */,
+				378A4CF129E4FBDB004CA003 /* MapViewController.swift in Sources */,
+				37AF0E4729C3D13400210F0F /* FitnessPalApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		37AF0E5429C3D13500210F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37AF0E5529C3D13500210F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37AF0E5729C3D13500210F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FitnessPal/FitnessPal.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FitnessPal/Preview Content\"";
+				DEVELOPMENT_TEAM = 2W9U5LP74M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FitnessPal/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app uses your location to track your runs/walks/bikes to trace a trail into their area map";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = NO;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = campbell.FitnessPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37AF0E5829C3D13500210F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FitnessPal/FitnessPal.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FitnessPal/Preview Content\"";
+				DEVELOPMENT_TEAM = 2W9U5LP74M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FitnessPal/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app uses your location to track your runs/walks/bikes to trace a trail into their area map";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = NO;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = campbell.FitnessPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37AF0E3E29C3D13400210F0F /* Build configuration list for PBXProject "FitnessPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37AF0E5429C3D13500210F0F /* Debug */,
+				37AF0E5529C3D13500210F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37AF0E5629C3D13500210F0F /* Build configuration list for PBXNativeTarget "FitnessPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37AF0E5729C3D13500210F0F /* Debug */,
+				37AF0E5829C3D13500210F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		37AF0E5129C3D13500210F0F /* FitnessPal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				37AF0E5229C3D13500210F0F /* FitnessPal.xcdatamodel */,
+			);
+			currentVersion = 37AF0E5229C3D13500210F0F /* FitnessPal.xcdatamodel */;
+			path = FitnessPal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		37B3DAF929EF070900C7B77E /* CalorieGoal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				37B3DAFA29EF070900C7B77E /* CalorieGoal.xcdatamodel */,
+			);
+			currentVersion = 37B3DAFA29EF070900C7B77E /* CalorieGoal.xcdatamodel */;
+			path = CalorieGoal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 37AF0E3B29C3D13400210F0F /* Project object */;
+}
